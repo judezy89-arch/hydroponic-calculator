@@ -267,34 +267,6 @@ elif "黄瓜" in recipe or "Cucumber" in recipe:
         "中文": "💡 黄瓜NFT系统推荐 EC：1.8 - 2.2 mS/cm。高流动大水体有助于根系充分吸收钙钾。",
         "English": "💡 Cucumber NFT closed system recommends EC: 1.8 - 2.2 mS/cm. Dynamic flow aids rapid calcium and potassium mass transport."
     }
-elif "黄瓜" in recipe or "Cucumber" in recipe:
-    base_calc = {
-        "Ca(NO3)2": 80.0 / 100.0,
-        "KNO3": 40.0 / 100.0,
-        "MgSO4": 60.0 / 100.0,
-        "KH2PO4": 20.0 / 100.0,
-        "Trace": 5.0 / 100.0,
-        "Fe_EDDHA": 1.5 / 100.0,
-    }
-    base_ec_val = 2.0
-    explain_a_map = {
-        "中文": ["提供黄瓜果实生长所需核心氮钙比例", "促进主茎伸长与早期挂果高能钾素"],
-        "English": ["Provides optimal nitrogen-to-calcium ratio for heavy cucumber vine structures", "Powers stem elongation and rapid potassium loading in early fruit sets"]
-    }
-    explain_b_map = {
-        "中文": [
-            "提供果实膨大期的硫、镁元素平衡",
-            "促根、壮苗与花芽分化的基础磷钾源 (MKP)",
-            "补偿NFT循环中高消耗微量元素",
-            "强效螯合铁，彻底解决密闭管道根系缺铁黄化问题"
-        ],
-        "English": [
-            "Maintains magnesium and sulfur equilibrium for active leaf canopy photosynthesis",
-            "Premium soluble phosphorus-potassium source (MKP) for flowering and robust rooting",
-            "Replenishes micro-dose trace elements consumed rapidly in closed NFT loops",
-            "Superior chelated EDDHA-Fe halts iron chlorosis in high-transpiration PVC gullies"
-        ]
-    }
 elif "Hoagland" in recipe:
     default_ec, min_ec, max_ec = 2.0, 1.5, 2.5
     info_text = {
@@ -390,12 +362,6 @@ elif "商业级" in recipe or "Commercial" in recipe:
             "Optimized micro-dose traces matching high-flow plant consumption rates",
             "EDDHA iron resists oxidation caused by continuous air contact and pump agitation"
         ]
-    }
-elif "黄瓜" in recipe or "Cucumber" in recipe:
-    default_ec, min_ec, max_ec = 2.0, 1.2, 2.5
-    info_text = {
-        "中文": "💡 黄瓜NFT系统推荐 EC：1.8 - 2.2 mS/cm。高流动大水体有助于根系充分吸收钙钾。",
-        "English": "💡 Cucumber NFT closed system recommends EC: 1.8 - 2.2 mS/cm. Dynamic flow aids rapid calcium and potassium mass transport."
     }
 elif "黄瓜" in recipe or "Cucumber" in recipe:
     base_calc = {
@@ -717,40 +683,19 @@ with col_analysis:
             * **经典的低微量元素设计**：由于水体24小时不间断循环，根系接触面极大，因此可以使用更低、更精细的微量元素比例，控制成本，达到高产。
             """)
     elif "黄瓜" in recipe or "Cucumber" in recipe:
-    default_ec, min_ec, max_ec = 2.0, 1.2, 2.5
-    info_text = {
-        "中文": "💡 黄瓜NFT系统推荐 EC：1.8 - 2.2 mS/cm。高流动大水体有助于根系充分吸收钙钾。",
-        "English": "💡 Cucumber NFT closed system recommends EC: 1.8 - 2.2 mS/cm. Dynamic flow aids rapid calcium and potassium mass transport."
-    }
-elif "黄瓜" in recipe or "Cucumber" in recipe:
-    base_calc = {
-        "Ca(NO3)2": 80.0 / 100.0,
-        "KNO3": 40.0 / 100.0,
-        "MgSO4": 60.0 / 100.0,
-        "KH2PO4": 20.0 / 100.0,
-        "Trace": 5.0 / 100.0,
-        "Fe_EDDHA": 1.5 / 100.0,
-    }
-    base_ec_val = 2.0
-    explain_a_map = {
-        "中文": ["提供黄瓜果实生长所需核心氮钙比例", "促进主茎伸长与早期挂果高能钾素"],
-        "English": ["Provides optimal nitrogen-to-calcium ratio for heavy cucumber vine structures", "Powers stem elongation and rapid potassium loading in early fruit sets"]
-    }
-    explain_b_map = {
-        "中文": [
-            "提供果实膨大期的硫、镁元素平衡",
-            "促根、壮苗与花芽分化的基础磷钾源 (MKP)",
-            "补偿NFT循环中高消耗微量元素",
-            "强效螯合铁，彻底解决密闭管道根系缺铁黄化问题"
-        ],
-        "English": [
-            "Maintains magnesium and sulfur equilibrium for active leaf canopy photosynthesis",
-            "Premium soluble phosphorus-potassium source (MKP) for flowering and robust rooting",
-            "Replenishes micro-dose trace elements consumed rapidly in closed NFT loops",
-            "Superior chelated EDDHA-Fe halts iron chlorosis in high-transpiration PVC gullies"
-        ]
-    }
-elif "Hoagland" in recipe:
+        if lang == "English":
+            st.markdown("""
+            **💡 Cucumber NFT Closed-Loop Profile Analysis:**
+            * **High Magnesium & Sulfur (30.0%)**: Cucumber vines have large leaf areas and high transpiration, requiring elevated magnesium for heavy chlorophyll production.
+            * **Well-Balanced Potassium (20.0%)**: Supports robust stem elongation and heavy fruit sizing during active vegetative and reproductive cycles.
+            """)
+        else:
+            st.markdown("""
+            **💡 黄瓜 NFT 闭合循环配方特点分析：**
+            * **极高占比的硫与镁（占 30.0%）**：黄瓜属于阔叶高蒸腾作物，高含量的镁和硫是支撑其大叶片叶绿素合成与主茎持续拉长、开花的生命支柱。
+            * **温和稳定的钾含量（20.0%）**：确保黄瓜在挂果期间得到稳定的养分充盈，防藤蔓早衰。
+            """)
+    elif "Hoagland" in recipe:
         if lang == "English":
             st.markdown("""
             **💡 Hoagland No. 2 Academic Equilibrium:**
