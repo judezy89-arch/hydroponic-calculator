@@ -134,32 +134,32 @@ TEXTS = {
         "English": "🔍 Nutrient Balance Profile Decoded"
     },
     "affiliate_title": {
-        "中文": "🛒 推荐采购与种植工具（广告 & 佣金变现位）",
-        "English": "🛒 Recommended Hardware & Materials (Affiliate Monetization)"
+        "中文": "📬 加入极客群聊与订阅",
+        "English": "📬 Join Our Community & Newsletter"
     },
     "ad1_title": {
-        "中文": "🛒 高精度电子天平 (0.01g)",
-        "English": "🛒 High-Precision Digital Scale (0.01g)"
+        "中文": "✉️ 订阅每周配方",
+        "English": "✉️ Weekly Formulas"
     },
     "ad1_desc": {
-        "中文": "[立即在亚马逊采购 ↗](https://example.com/affiliate-scale)  \n*精准称量 A/B 罐微量元素、螯合铁以及克拉茨基微型配方不可或缺的硬件。*",
-        "English": "[Buy on Amazon ↗](https://example.com/affiliate-scale)  \n*Indispensable hardware for precise weighing of micronutrients, iron chelates, and micro-batches.*"
+        "中文": "想要草莓、罗勒的特调配方？订阅我们的免费邮件周报！\n\n👉 [立即订阅](mailto:judezy89@gmail.com?subject=Subscribe%20Hydroponics)",
+        "English": "Want custom formulas for strawberries or basil? Subscribe to our newsletter!\n\n👉 [Subscribe via Email](mailto:your_email@gmail.com?subject=Subscribe%20Hydroponics)"
     },
     "ad2_title": {
-        "中文": "🧪 专业 A/B 双色母液储水罐 (5L)",
-        "English": "🧪 Professional A/B Reservoirs (5L)"
+        "中文": "💬 微信极客交流群",
+        "English": "💬 WeChat Community"
     },
     "ad2_desc": {
-        "中文": "[查看高赞推荐商家 ↗](https://example.com/affiliate-tanks)  \n*不透光材质，完美防藻、防化学反应沉淀，保证经典配方长久保存。*",
-        "English": "[View High-Rated Store ↗](https://example.com/affiliate-tanks)  \n*Opaque food-grade plastic. Perfect for blocking algae and light, preventing stock solution degradation.*"
+        "中文": "加入千人水培大群，与全球种植大咖面对面交流。\n\n👉 **微信号: kslab01ID** (备注: 水培)",
+        "English": "Join 1000+ growers in our private community.\n\n👉 **Add WeChat: kslab01** (Note: Hydro)"
     },
     "ad3_title": {
-        "中文": "⚡ 防沉淀 EDDHA 螯合铁 (红色粉末)",
-        "English": "⚡ Non-Precipitating EDDHA-Fe (6% Red Powder)"
+        "中文": "👾 Discord & Reddit",
+        "English": "👾 Discord & Reddit"
     },
     "ad3_desc": {
-        "中文": "[官方联盟直供购买 ↗](https://example.com/affiliate-iron)  \n*攻克黄叶病，学术标准霍格兰或西红柿防脐腐高浓度配方的黄金伴侣。*",
-        "English": "[Direct Affiliate Link ↗](https://example.com/affiliate-iron)  \n*Defeat yellow-leaf chlorosis. The ultimate iron source for hard tap water or advanced tomato formulas.*"
+        "中文": "加入全球 Discord 社区，提交您的特调雷达图。\n\n👉 [进入社区](https://discord.gg/your_link)",
+        "English": "Connect with worldwide growers on our Discord!\n\n👉 [Join Discord](https://discord.gg/your_link)"
     },
     "instructions_title": {
         "中文": "📝 5步标准混溶实操法（防沉淀）",
