@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/31294582/README.md)
-# hydroponic-calculator# 🌱 智能水培营养液配方计算器与分析仪 (Hydroponic Stock Solution & Nutrient Balance Analyzer)
+# 🌱 智能水培营养液配方计算器与分析仪 (Hydroponic Stock Solution & Nutrient Balance Analyzer)
 
 [![Streamlit App](https://static.streamlit.io/badge_svg.svg)](https://share.streamlit.io/)
 [![Python Version](https://img.shields.io/badge/python-3.12-green.svg)](https://www.python.org/)
